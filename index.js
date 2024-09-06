@@ -1,3 +1,4 @@
-import CLI from "./lib/cli";
+import CLI from "./lib/cli.js";
 
-new CLI().run();
+const cli = new CLI();
+cli.run();
