@@ -1,44 +1,44 @@
 # LogoCraft
 
-## Description
+## Overview
 
-As a freelance web developer, I wanted a quick and easy way to generate simple logos for my projects without the need to hire a graphic designer. This command-line application allows users to create a custom logo by specifying the text, text color, background, and background color. The result is an SVG file that can be used directly in your projects.
+As a freelance web developer, I needed a straightforward solution for creating simple logos for my projects without the expense of hiring a graphic designer. This command-line tool enables users to design custom logos by specifying the text, text color, background shape, and background color. The end result is an SVG file ready to be integrated into your projects.
 
 ## Table of Contents
 
-- [Description](#description)
+- [Overview](#overview)
 - [Usage](#usage)
 - [Features](#features)
-- [Acknowledgements](#acknowledgements)
+- [Credits](#credits)
 
-## Usage
+## Instructions
 
-1. Run the application:
+1. Start the application:
 
 ```bash
 node index.js
 ```
 
-2. Follow the prompts:
+2. Follow the prompts to customize your logo:
 
-- Text: Enter text for the logo (up to 3 characters).
-- Text Color: Enter the text color (a color keyword e.g; red, blue or a hexadecimal number e.g; #ff5733).
-- Background: Select a background shape from the list: circle, square, triangle or hexagon.
-- Background Color: Enter the background color (a color keyword or a hexadecimal number).
+- Text: Input the text for your logo (up to 3 characters).
+- Text Color: Specify the text color (use a color name like "red" or "blue," or a hexadecimal code like "#ff5733").
+- Background: Choose a background shape from the available options: circle, square, triangle, or hexagon.
+- Background Color: Provide the background color (use a color name or a hexadecimal code).
 
-3. After entering all the required input, the application will generate an SVG file named logo.svg in the root directory.
+3. Once you've provided all the necessary information, the application will create an SVG file named logo.svg in the root directory.
 
-4. The output "Generated logo.svg" will be printed in the command line.
+4. You will see "Generated logo.svg" displayed in the command line.
 
-5. Open the logo.svg file in a web browser to view your custom logo.
+5. View your custom logo by opening the logo.svg file in a web browser.
 
 ## Features
 
-- Customizable Text: Enter up to three characters to display on the logo.
-- Color Selection: Choose any color for the text and background using either color keywords or hexadecimal values.
-- Background Options: Select from four backgrounds—circle, square, triangle, or hexagon.
-- SVG Output: Generates a scalable vector graphic (SVG) file that can be used directly in your projects.
+- Customizable Text: Add up to three characters to your logo.
+- Color Selection: Select any color for both text and background using color names or hexadecimal codes.
+- Background Options: Choose from four different shapes—circle, square, triangle, or hexagon.
+- SVG Output: Outputs a scalable vector graphic (SVG) that is ready for use in your projects.
 
-## Acknowledgements
+## Credits
 
-This project was created as part of a learning exercise and may contain simplistic implementations.
+This tool was developed as part of a learning exercise and may feature basic implementations.
