@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Command line tool to create a logo and write it into a file.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "jest"
   },
